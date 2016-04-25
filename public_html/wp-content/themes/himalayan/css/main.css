@@ -1,0 +1,66 @@
+/* PARALLAX SCROLLING EXPERIMENT
+   Master Styles
+   Author: Jonathan Nicol (f6design.com)
+*****************************************************************/
+
+/* Parallax
+*****************************************************************/
+.menu_fix {
+	z-index: 5;
+	top: 15%;
+	position:fixed;
+}
+
+/* content */
+.mid_content article{
+	overflow:hidden;
+}
+.mid_content {
+	z-index: 4;
+	position: relative;
+	margin: 0 auto;
+	}
+	#content article {
+		width: 100%;
+		}
+		
+		#glance,
+		#accomodation_detail,
+		#gallery, #facts, #videos, #reviews, #faqs, #date_price1, #useful_info, #equipments {
+			padding-top: 100px;
+			}
+		#itinerary {
+			top:0;
+			}
+		#glance {
+			top:0;
+			}
+		#accomodation_detail {
+			top:50px;
+			}
+		 #facts {
+			top:200px;
+			}
+		#gallery {
+			top:300px;
+			}
+		#videos {
+			top:400px;
+			}
+		#reviews {
+			top:400px;
+			}
+		#faqs {
+			top:400px;
+			}
+		#date_price1 {
+			top:400px;
+                        padding-top: 0;
+			}
+		#useful_info {
+			top:400px;
+			}
+		#equipments{
+			top:500px;
+			}
+
